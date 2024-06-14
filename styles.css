@@ -1,0 +1,115 @@
+* {
+  font-family: "verdana", cursive;
+}
+
+body {
+  margin: 0;
+  background-image: url("https://cdn.glitch.global/0e1512b7-aa9f-46e4-a4d0-052d2e074117/thumbnails%2Fimage_2024-06-13_200710368.png?1718320033845");
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+#title {
+  padding-top: 20px;
+  width: 80%;
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #9325c2, 0 0 50px #9325c2,
+    0 0 60px #9325c2, 0 0 70px #9325c2, 0 0 80px #9325c2;
+  justify-content: baseline;
+  font-family: Sans-Serif;
+}
+
+#drum-machine {
+  display: grid;
+  grid-row: auto auto;
+  width: 300px;
+  margin: 10px auto 10px auto;
+  padding: 30px 20px 5px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px;
+  background-color: rgba(192, 192, 192, 0.7);
+  text-align: center;
+}
+
+.drum-pad {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  color: #3a109c;
+  font-style: bold;
+  font-size: 25px;
+  text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ebaa9a, 0 0 50px #ebaa9a,
+    0 0 60px #ebaa9a, 0 0 70px #ebaa9a, 0 0 80px #ebaa9a;
+  background-color: rgba(216, 30, 30, 0);
+  border: 3px solid #e21616;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 2px white, 0px 0px 20px 3px #ebaa9a,
+    0px 0px 30px 3px #ebaa9a;
+  text-align: center;
+  cursor: pointer;
+}
+
+.drum-pad:hover {
+  text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #24adcf, 0 0 50px #24adcf,
+    0 0 60px #24adcf, 0 0 70px #24adcf, 0 0 80px #24adcf;
+  box-shadow: 0px 0px 10px 2px white, 0px 0px 20px 3px #24adcf,
+    0px 0px 30px 3px #24adcf;
+}
+
+.drum-pad:focus {
+  text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #24adcf, 0 0 50px #24adcf,
+    0 0 60px #24adcf, 0 0 70px #24adcf, 0 0 80px #24adcf;
+  box-shadow: 0px 0px 10px 2px white, 0px 0px 20px 3px #24adcf,
+    0px 0px 30px 3px #24adcf;
+  outline: none;
+}
+
+.control {
+  justify-content: center;
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  cursor: pointer;
+}
+
+#power {
+  background-color: #9325c2;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+}
+
+#bank {
+  background-color: #ebaa9a;
+  color: #000000;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#display {
+  margin: 20px 10px 20px 10px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #96a88c;
+  color: #000000;
+  font-size: 26px;
+  border: darkolivegreen;
+}
+
+#copy {
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
